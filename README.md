@@ -72,7 +72,8 @@ export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
 ## Deployment Checklist Fulfillment
 - **GitHub Repo:** https://github.com/vanshmaheshwari021/krashimart.git
-- **Live Frontend URL:** [Add Your Link Here]
+- **Live Frontend URL:** https://frontend-blue-five-52.vercel.app
+- **Live Backend API:** https://backend-delta-blush-10.vercel.app
 - **Admin Credentials:** `admin` / `password`
 - **Database:** MongoDB Atlas is configured and running.
 - **Seed Data:** Pre-seeded via `seed.js`.
