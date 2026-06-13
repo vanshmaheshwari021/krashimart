@@ -106,7 +106,7 @@ const Products = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {filteredProducts.map((product) => (
-            <Link to={`/product/${product.id}`} key={product.id} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group flex flex-col hover:-translate-y-1">
+            <Link to={`/product/${product._id}`} key={product._id} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group flex flex-col hover:-translate-y-1">
               {/* Product Image Area */}
               <div className="h-48 relative overflow-hidden bg-gray-100">
                 <img 
@@ -137,9 +137,9 @@ const Products = () => {
               </div>
               
               <div className="p-5 flex flex-col flex-grow">
-                <div className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">{product.category}</div>
+                <div className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">{product.category?.name || product.category}</div>
                 <h3 className="text-lg font-extrabold text-gray-900 mb-2 leading-tight group-hover:text-[var(--color-agri-green)] transition-colors">{product.name}</h3>
-                <p className="text-sm text-gray-500 mb-6 flex-grow">{product.desc}</p>
+                <p className="text-sm text-gray-500 mb-6 flex-grow">{product.description}</p>
                 
                 <div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-100">
                   <div>
