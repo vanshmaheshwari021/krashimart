@@ -77,4 +77,3 @@ export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 - **Admin Credentials:** `admin` / `password`
 - **Database:** MongoDB Atlas is configured and running.
 - **Seed Data:** Pre-seeded via `seed.js`.
-- **Demo Video:** [Add Your Link Here]
