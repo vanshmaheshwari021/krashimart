@@ -1,0 +1,10 @@
+export const mockProducts = [
+  { id: 1, name: 'Premium Wheat Seeds', category: 'Seeds', price: 1299, unit: '5kg bag', desc: 'High-yield HD-2967 variety. Disease-resistant. 92% germination rate.', badge: 'organic', image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=600' },
+  { id: 2, name: 'Kashmiri Red Chilli', category: 'Spices', price: 899, unit: 'per kg', desc: 'Grade A sun-dried. Deep red colour. 35,000 SHU. Aromatic.', badge: '', image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=600' },
+  { id: 3, name: 'Organic Compost Manure', category: 'Organic', price: 1800, unit: '50kg bag', desc: 'NPOP certified. Fully composted. Nitrogen-rich. Improves soil texture.', badge: 'organic', image: 'https://images.unsplash.com/photo-1592982537447-6f2a6a0a3861?q=80&w=600' },
+  { id: 4, name: 'Chana Dal (Split)', category: 'Pulses', price: 149, unit: 'per kg', desc: 'Premium grade. Uniform colour. Low moisture. Direct from Maharashtra.', badge: 'bulk', image: 'https://images.unsplash.com/photo-1515543904379-3d757afe72e4?q=80&w=600' },
+  { id: 5, name: 'Turmeric (Curcuma)', category: 'Spices', price: 280, unit: 'per kg', desc: 'Lakadong variety. 5.8% curcumin. Sun-dried and machine polished.', badge: 'organic', image: 'https://images.unsplash.com/photo-1606325997607-b3f9ff70513e?q=80&w=600' },
+  { id: 6, name: 'Moong Dal (Yellow)', category: 'Pulses', price: 135, unit: 'per kg', desc: 'Machine cleaned. Uniform size. High protein. Low impurities.', badge: '', image: 'https://images.unsplash.com/photo-1585934664797-29d916cb0359?q=80&w=600' },
+  { id: 7, name: 'Hand Weeder (Steel)', category: 'Tools', price: 499, unit: 'per piece', desc: 'Ergonomic grip. Rust-proof steel blade. Suitable for all soil types.', badge: 'new', image: 'https://images.unsplash.com/photo-1416879598555-22709214ae8e?q=80&w=600' },
+  { id: 8, name: 'Neem Cake Fertilizer', category: 'Organic', price: 650, unit: '25kg bag', desc: 'Cold-pressed neem cake. Natural pest deterrent. Enriches soil nitrogen.', badge: 'organic', image: 'https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?q=80&w=600' }
+];

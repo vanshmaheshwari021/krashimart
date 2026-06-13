@@ -1,0 +1,13 @@
+{
+  "name": "agri-commerce-platform",
+  "version": "1.0.0",
+  "description": "MERN Agricultural Commerce Platform with B2B and B2C modes",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start": "npm run start --workspaces",
+    "dev": "npm run dev --workspaces"
+  }
+}

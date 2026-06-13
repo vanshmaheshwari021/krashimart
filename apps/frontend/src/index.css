@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-agri-brown-dark: #5d421f;
+  --color-agri-brown-light: #d56e4d;
+  --color-agri-blue-light: #9cbfdc;
+  --color-agri-green: #a0a824;
+  --color-agri-blue: #7ca4cc;
+  --color-agri-white: #FFFFFF;
+  --color-agri-bg: #F9FAFB;
+}
+
+:root {
+  --text-main: #1F2937;
+  --bg-main: #F9FAFB;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: var(--text-main);
+  background-color: var(--bg-main);
+}
+
+@layer utilities {
+  .animate-fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  .animate-image-pan {
+    animation: imagePan 30s linear infinite alternate;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes imagePan {
+  from {
+    transform: scale(1.05) translate(0, 0);
+  }
+  to {
+    transform: scale(1.1) translate(-2%, -2%);
+  }
+}
+
+@keyframes scroll-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@layer utilities {
+  .animate-marquee {
+    animation: scroll-marquee 40s linear infinite;
+  }
+  .animate-marquee:hover {
+    animation-play-state: paused;
+  }
+}
